@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Text Slider</h1>
+    <div class="slider" id="text-slider">
+        <div class="slides">
+            <div class="slide">Slide 1: Welcome to our website!</div>
+            <div class="slide">Slide 2: Explore our features!</div>
+            <div class="slide">Slide 3: Contact us for more information!</div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1, 'text-slider')">&#10094;</button>
+        <button class="next" onclick="moveSlide(1, 'text-slider')">&#10095;</button>
+    </div>
+    <div class="nav">
+        <a href="index.html">Back to Main Menu</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
